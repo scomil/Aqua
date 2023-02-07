@@ -1,0 +1,61 @@
+targets:
+  $default:
+    builders:
+      json_serializable|json_serializable:
+        options:
+          # Options configure how source code is generated for every
+          # `@JsonSerializable`-annotated class in the package.
+          #
+          # The default value for each is listed.
+          any_map: true
+          checked: false
+          create_factory: true
+          create_to_json: true
+          disallow_unrecognized_keys: false
+          explicit_to_json: false
+          field_rename: none
+          ignore_unannotated: false
+          include_if_null: false
+      freezed|freezed:
+        generate_for:
+          - "lib/data/models/sideswap.dart"
+          - "lib/data/models/sideshift.dart"
+          - "lib/data/models/gdk_models.dart"
+          - "lib/common/widgets/custom_alert_dialog/custom_alert_dialog_ui_model.dart"
+          - "lib/data/provider/app_links/app_link.dart"
+          - "lib/data/provider/biometric/biometric_prompt_ui_model.dart"
+          - "lib/data/provider/home/home_popup.dart"
+          - "lib/data/provider/wallet_add_asset/wallet_add_asset_item_model.dart"
+          - "lib/data/provider/qr_scanner/qr_scanner_pop_result.dart"
+          - "lib/data/provider/send_assets/send_assets_arguments.dart"
+          - "lib/data/provider/send_prompt/send_prompt_arguments.dart"
+          - "lib/data/provider/send_amount/send_amount_arguments.dart"
+          - "lib/data/provider/send_amount/send_amount_ui_model.dart"
+          - "lib/data/provider/send_review/send_review_arguments.dart"
+          - "lib/data/provider/receive_amount/receive_amount_ui_model.dart"
+          - "lib/data/provider/receive_amount/receive_amount_arguments.dart"
+          - "lib/data/provider/receive_qr_code/receive_qr_code_arguments.dart"
+          - "lib/data/provider/receive_qr_code/receive_qr_code_data.dart"
+          - "lib/data/provider/receive_address/receive_addresses_history_arguments.dart"
+          - "lib/data/provider/receive_address/receive_address_ui_model.dart"
+          - "lib/data/provider/biometric/biometric_activation_result.dart"
+          - "lib/data/provider/passcode/passcode_processing_result.dart"
+          - "lib/data/provider/passcode/passcode_dialog_ui_model.dart"
+          - "lib/data/provider/send_review/send_review_ui_model.dart"
+          - "lib/data/provider/send_review/send_review_processing_result.dart"
+          - "lib/data/provider/asset_transactions/asset_transactions_item_ui_model.dart"
+          - "lib/data/provider/asset_transactions/asset_transactions_ui_model.dart"
+          - "lib/data/provider/asset_details/asset_details_item_ui_model.dart"
+          - "lib/data/provider/asset_transaction_details/asset_transaction_details_ui_model.dart"
+          - "lib/data/provider/asset_list/asset_list_ui_model.dart"
+          - "lib/data/provider/entry_point/entry_point.dart"
+          - "lib/data/provider/profile_support_item_ui_model.dart"
+          - "lib/data/provider/swap/sideswap_prompt_arguments.dart"
+          - "lib/data/provider/swap/sideswap_prompt_data_model.dart"
+          - "lib/data/provider/swap/sideswap_http_state.dart"
+          - "lib/data/provider/swap/swap_prompt_item_ui_model.dart"
+          - "lib/data/provider/sideshift/sideshift_transaction_state.dart"
+          - "lib/data/provider/bitcoin_reserve/bitcoin_reserve_auth_state.dart"
+          - "lib/data/models/bitcoin_reserve.dart"
+          - "lib/data/provider/swap/swap_tutorial_state.dart"
+          - "lib/data/models/pokerchip.dart"

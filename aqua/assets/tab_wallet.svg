@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 5.2916666 5.2916668"
+   height="20"
+   width="20">
+  <defs
+     id="defs2">
+    <path
+       id="b"
+       d="M 21.943219,20.317419 H 0 V 0.5154286 h 21.943219 z" />
+    <path
+       id="d"
+       d="M 22,19.904762 H 0.084019 V 0.0996286 H 22 Z" />
+    <filter
+       style="color-interpolation-filters:auto"
+       id="a">
+      <feColorMatrix
+         in="SourceGraphic"
+         values="0 0 0 0 0.419608 0 0 0 0 0.450980 0 0 0 0 0.529412 0 0 0 1.000000 0"
+         id="feColorMatrix4539" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="scale(0.22048611,0.24550893)"
+     id="g4663">
+    <path
+       id="path4520"
+       d="m 17.121107,15.438988 h 1.987541 v -4.432759 h -1.987541 z"
+       style="fill:#6b7387;fill-opacity:1" />
+    <path
+       id="path4522"
+       d="M 22.012458,6.8788933 V 19.566324 H 3.4541216 c -0.9336951,-0.02293 -1.46658,-0.553063 -1.46658,-1.451905 V 6.5542095 l 0.3072572,0.1118967 c 0.3962242,0.143081 0.770436,0.212787 1.1446478,0.212787 z M 3.4293576,1.9875416 H 19.566324 V 4.8913517 H 3.4394466 c -0.7887797,-0.033936 -1.3987083,-0.67138 -1.3987083,-1.451905 0,-0.7805252 0.6099286,-1.4179693 1.3886193,-1.4519051 z M 19.337028,0 H 3.4394466 C 1.5427065,0 0,1.5436237 0,3.4394466 V 18.114419 c 0,2.523178 2.0572477,3.439447 3.4394466,3.439447 H 21.783162 C 23.005771,21.553866 24,20.559636 24,19.337028 V 7.1081897 C 24,5.8855811 23.005771,4.8913517 21.783162,4.8913517 H 21.553866 V 2.216838 C 21.553866,0.9942294 20.559636,0 19.337028,0 Z"
+       style="fill:#6b7387;fill-opacity:1" />
+  </g>
+  <g
+     transform="translate(-2.2490372,-21.293668)"
+     id="layer1" />
+</svg>

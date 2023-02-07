@@ -1,0 +1,646 @@
+{
+  "@@locale": "en",
+  "appTitle": "Aqua",
+  "homeTabWalletTitle": "Wallet",
+  "homeTabMarketplaceTitle": "Marketplace",
+  "homeTabNftTitle": "NFT",
+  "homeTabProfileTitle": "Profile",
+  "initialScreenLoadingWallet": "Loading your wallet...",
+  "copySnackbarError": "Failed to copy",
+  "walletReceiveButton": "Receive",
+  "walletSendButton": "Send",
+  "walletScanButton": "Scan",
+  "walletAddAssetTitle": "Add to wallet",
+  "walletAddAssetNoItems": "No matched items found",
+  "assetTransactionsListRetryButton": "Retry",
+  "assetTransactionsReceiveButton": "Receive",
+  "assetTransactionsSendButton": "Send",
+  "assetTransactionsGetAssetButton": "Get {asset}",
+  "@assetTransactionsGetAssetButton": {
+    "placeholders": {
+      "asset": {
+        "type": "String"
+      }
+    }
+  },
+  "assetTransactionsErrorButton": "Go Back",
+  "assetTransactionsLiquidEmptyList": "Your {asset} transactions\nwill show up here.",
+  "@assetTransactionsLiquidEmptyList": {
+    "placeholders": {
+      "asset": {
+        "type": "String"
+      }
+    }
+  },
+  "assetTransactionsAmount": "USD {amount}",
+  "@assetTransactionsAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "assetTransactionsTypeSent": "Sent",
+  "assetTransactionsTypeReceived": "Received",
+  "assetTransactionsTypeRedeposit": "Redeposit",
+  "assetTransactionsTypeSwap": "Swap",
+  "assetTransactionsTypeSwapTo": "Converted to {ticker}",
+  "@assetTransactionsTypeSwapTo": {
+    "placeholders": {
+      "ticker": {
+        "type": "String"
+      }
+    }
+  },
+  "assetTransactionsTypeSwapFrom": "Converted from {ticker}",
+  "@assetTransactionsTypeSwapFrom": {
+    "placeholders": {
+      "ticker": {
+        "type": "String"
+      }
+    }
+  },
+  "assetTransactionsItemError": "Unable to load transaction!",
+  "assetTransactionsItemBitcoinEmpty": "Your Bitcoin transactions will\nshow up here.",
+  "assetDetailsIssuer": "Issuer",
+  "assetDetailsId": "Asset ID",
+  "assetDetailsIntro": "Intro",
+  "assetDetailsBtcIntro": "Bitcoin is a decentralized digital currency without a central bank or centralized institutions that can be sent from user to user in the P2P network without the need for intermediaries.",
+  "assetDetailsLbtcIntro": "Liquid Bitcoin (L-BTC) represents bitcoin (BTC) that has been transferred to the Liquid Network via a two-way peg. Each L-BTC is verifiably backed by an equal amount of BTC secured by the Liquid Federation.",
+  "assetDetailsLbtcIssuer": "L-BTC has no issuer and is instead created on the network via a peg-in.",
+  "assetDetailsErrorButton": "Go Back",
+  "assetDetailsIdCopiedSnackbar": "Asset Id copied",
+  "assetTransactionDetailsFrom": "From",
+  "assetTransactionDetailsTo": "To",
+  "assetTransactionDetailsRate": "Rate",
+  "assetTransactionDetailsOrderId": "OrderId",
+  "assetTransactionDetailsTimeAt": "at",
+  "assetTransactionDetailsAmount": "Amount",
+  "assetTransactionDetailsDeliverAmount": "Send",
+  "assetTransactionDetailsReceiveAmount": "Receive",
+  "assetTransactionDetailsReceiveRate": "Rate",
+  "assetTransactionDetailsReceiveAddress": "To",
+  "assetTransactionDetailsDelivered": "Swap",
+  "assetTransactionDetailsReceived": "For",
+  "assetTransactionDetailsPrice": "Price",
+  "assetTransactionDetailsFee": "Fee",
+  "assetTransactionDetailsType": "Order type",
+  "assetTransactionDetailsMyNotes": "My Notes",
+  "assetTransactionDetailsMyNotesPlaceholder": "Only visible to you",
+  "assetTransactionDetailsTransactionId": "Transaction ID",
+  "assetTransactionDetailsExplorerButton": "View in Explorer",
+  "assetTransactionDetailsErrorButton": "Go Back",
+  "assetTransactionDetailsSwapTitle": "Swap Receipt",
+  "assetTransactionDetailsIdCopiedSnackbar": "Transaction ID copied",
+  "assetTransactionDetailsPending": "Pending",
+  "marketplaceMenuTitleSwap": "Swap",
+  "marketplaceMenuDescriptionSwap": "Swap between BTC, L-BTC, ETH, and 50+ other cryptocurrencies.",
+  "marketplaceMenuTitleBuy": "Buy",
+  "marketplaceMenuDescriptionBuy": "Make a one-time or recurring purchase of Bitcoin from your bank.",
+  "marketplaceMenuTitleExchange": "Exchange",
+  "marketplaceMenuDescriptionExchange": "Get Liquid on our partner exchanges",
+  "marketplaceMenuExchangeDescription": "Get Liquid on our\npartner exchanges",
+  "swapMenuItemSideswapTitle": "Swap coins",
+  "swapMenuItemSwanTitle": "Buy Bitcoin",
+  "swapMenuItemSwanDescription": "Buy Bitcoin on the simplest exchange platform (US only).",
+  "swapMenuItemSideswapDescription": "Make a one-time or recurring purchases from your bank ...",
+  "swapMenuItemSideswapButtonLabel": "Swap",
+  "swapMenuItemSwanButtonLabel": "Buy",
+  "swapMenuItemBitfinexTitle": "Bitfinex",
+  "swapMenuItemBitfinexDescription": "Trade crypto on one of the longest standing exchanges",
+  "swapMenuItemBtseTitle": "BTSE",
+  "swapMenuItemBtseDescription": "Buy, sell, invest in crypto with the lowest fees and highest yields",
+  "swapTutorialTitle": "Choose any assets to swap with L-BTC.",
+  "swapTutorialDescription1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+  "swapTutorialDescription2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "swapTutorialButtonNext": "Next",
+  "swapTutorialButtonSwap": "Swap now",
+  "swapTutorialButtonSkip": "Do not show again",
+  "swapTutorialMessageAsset": "Tap here to choose asset",
+  "swapTutorialMessageAmount": "Put in the amount",
+  "swapTutorialMessageRate": "This means how much L-BTC\nyou will get with 1 BTC",
+  "swapTutorialMessageSwap": "Now tap Swap",
+  "swapTutorialMessageHistory": "You can view all your\nSwap History here",
+  "swapTutorialCompleteMessage": "Congratulations! You've just made your first swap.",
+  "exchangeTitle": "Exchange",
+  "exchangeTabBuy": "Buy",
+  "exchangeSwapCoins": "SideSwap",
+  "exchangeSwapButton": "Swap",
+  "@exchangeSwapMore": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "exchangeBitcoinReserveTitle": "Bitcoin Reserve",
+  "exchangeBitcoinReserveLoginButton": "Sign in",
+  "exchangeBitcoinReserveLoginEmail": "Email",
+  "exchangeBitcoinReserveLoginPassword": "Password",
+  "exchangeBitcoinReserve2FaCode": "Code",
+  "exchangeBitcoinReserve2FaButton": "Verify",
+  "exchangeBitcoinReserve2FaDescription": "A code has been sent to your email.\nPlease enter it below:",
+  "exchangeBitcoinReserve2FaResendButton": "Resend code",
+  "exchangeBitcoinReserveBuyButton": "Buy",
+  "exchangeBitcoinReserveSellButton": "Sell",
+  "exchangeBitcoinReserveBuyTitle": "Buy Bitcoin",
+  "exchangeBitcoinReserveBuyCurrencyDescription": "How do you want to fund this purchase?",
+  "exchangeBitcoinReserveBuyAmountDescription": "How much do you want to spend on BTC?",
+  "exchangeBitcoinReserveBuyMaxButton": "Max",
+  "exchangeBitcoinReserveBuyCostError": "Invalid amount",
+  "exchangeBitcoinReserveSellTitle": "Sell Bitcoin",
+  "exchangeBitcoinReserveSellReferenceRate": "Reference Rate",
+  "exchangeBitcoinReserveSellDestinationAddress": "Destination Address",
+  "exchangeBitcoinReserveSellQrDescription": "Open in Bitcoin Wallet",
+  "exchangeBitcoinReserveRegisterPasswordReset": "Forgot your password?",
+  "exchangeBitcoinReserveRegisterDescription": "Don't have an account? ",
+  "exchangeBitcoinReserveRegisterButton": "Sign up",
+  "exchangeBitcoinReserveTransactionTypeDeposit": "Deposit",
+  "exchangeBitcoinReserveTransactionTypeWithdrawal": "Withdrawal",
+  "exchangeBitcoinReserveTransactionTypeMarketBuy": "Market Buy",
+  "exchangeBitcoinReserveTransactionTypeMarketSell": "Market Sell",
+  "exchangeBitcoinReserveTransactionTypeSepaWireIn": "Wire In",
+  "exchangeBitcoinReserveTransactionTypeSepaWireOut": "Wire Out",
+  "exchangeBitcoinReserveTransactionAddress": "Address",
+  "exchangeBitcoinReserveTransactionWithdrawals": "Withdrawals",
+  "exchangeBitcoinReserveWithdrawalTransactionFee": "Transaction Fee",
+  "exchangeBitcoinReserveSatoshisBought": "SAT Bought",
+  "exchangeBitcoinReserveCurrencySpent": "{currency} Spent",
+  "@exchangeBitcoinReserveCurrencySpent": {
+    "placeholders": {
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "exchangeBitcoinReserveOrderNumber": "Order # {id}",
+  "@exchangeBitcoinReserveOrderNumber": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "exchangeBitcoinReserveAuthError": "Error occurred while logging in",
+  "exchangeBitcoinReserve2FaError": "Error occurred while verifying code",
+  "exchangeBitcoinReserveAuthEmailError": "Invalid email address",
+  "exchangeBitcoinReserveAuthPasswordError": "Password must be at least 6 characters long",
+  "exchangeBitcoinReserve2FaCodeError": "Invalid verification code",
+  "exchangeBitcoinReserveTransactionDetails": "Error occurred while fetching transaction details",
+  "exchangeBitcoinReserveAddressCopied": "Address copied to clipboard",
+  "exchangeSideshiftTitle": "Sideshift",
+  "exchangeSideShift": "Sideshift",
+  "exchangeSideShiftFixedRate": "Fixed",
+  "exchangeSideShiftVariableRate": "Variable",
+  "exchangeSideShiftReceivingAddress": "Receiving Address",
+  "exchangeSideShiftYouSend": "From",
+  "exchangeSideShiftYouReceive": "To",
+  "exchangeSideShiftCrossChainSwaps": "Cross-chain Swaps",
+  "exchangeSideShiftButton": "Swap",
+  "exchangeSideShiftNoLiquidAssetsError": "Atleast one asset must be a Liquid or BTC asset",
+  "exchangeSideShiftLoadAssetsError": "Failed to load asset list",
+  "exchangeSideShiftLoadPairsError": "Failed to load exchange information",
+  "exchangeSideShiftCheckPermissionsError": "Failed to check permissions",
+  "exchangeSideShiftNoPermissionError": "You do not have permission to create orders",
+  "exchangeSideShiftExternalToExternalError": "One asset must be internal to wallet",
+  "exchangeSideShiftVariableOrderError": "Failed to place variable rate order",
+  "exchangeSideShiftMinDeliverAmountError": "Minimum {min} {deliverAssetId}",
+  "@exchangeSideShiftMinDeliverAmountError": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "deliverAssetId": {
+        "type": "String"
+      }
+    }
+  },
+  "exchangeSideShiftMaxDeliverAmountError": "Maximum {max} {deliverAssetId}",
+  "@exchangeSideShiftMaxDeliverAmountError": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      },
+      "deliverAssetId": {
+        "type": "String"
+      }
+    }
+  },
+  "exchangeSideShiftDeliverAmountRequiredError": "Amount is required",
+  "exchangeSideShiftDeliverAmountBalanceError": "Amount must be within wallet balance",
+  "exchangeSideShiftReceivingAddressInfo": "Receiving address will be generated upon transaction",
+  "exchangeSideShiftDeliverAddressInfo": "Delivering address will be generated upon transaction",
+  "exchangeSideShiftErrorDialogTitle": "Error",
+  "exchangeSideShiftErrorDialogButtonLabel": "Okay",
+  "exchangeSideShiftReceivingAddressError": "Address is required",
+  "exchangeSideShiftFixedRateError": "Error while placing fixed rate order",
+  "exchangeSideShiftVariableRateError": "Error while placing variable rate order",
+  "exchangeSideShiftAssetPairError": "Asset rates not available",
+  "exchangeSideShiftExternalWalletLabel": "Receive {ticker} in other wallet",
+  "@exchangeSideShiftExternalWalletLabel": {
+    "placeholders": {
+      "ticker": {
+        "type": "String"
+      }
+    }
+  },
+  "exchangeSideShiftWalletExternal": "External wallet",
+  "exchangeSideShiftWalletBalance": "Balance: {balance} {ticker}",
+  "@exchangeSideShiftWalletBalance": {
+    "placeholders": {
+      "balance": {
+        "type": "String"
+      },
+      "ticker": {
+        "type": "String"
+      }
+    }
+  },
+  "exchangeSideShiftAddressCopied": "Address copied to clipboard",
+  "exchangeSideShiftSendToAddress": "Input address or scan QR",
+  "exchangeSideShiftSendLabel": "Please Send",
+  "exchangeSideShiftSendMin": "Min",
+  "exchangeSideShiftSendMax": "Max",
+  "exchangeSideShiftOrderCreatedAt": "Created At",
+  "exchangeSideShiftOrderNumber": "Order#",
+  "exchangeSideShiftOrderEstNetworkFee": "Estimated Network Fees: {fee} USD",
+  "@exchangeSideShiftOrderEstNetworkFee": {
+    "placeholders": {
+      "fee": {
+        "type": "String"
+      }
+    }
+  },
+  "exchangeSideShiftNewAddress": "New Address:\n{text}",
+  "@exchangeSideShiftNewAddress": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "exchangeSideShiftWaitingToSend": "Waiting for you to send {depositMethodId}...",
+  "@exchangeSideShiftWaitingToSend": {
+    "placeholders": {
+      "depositMethodId": {
+        "type": "String"
+      }
+    }
+  },
+  "exchangeSideshiftOrderInProgressTitle": "In progress",
+  "exchangeSideshiftOrderInProgressDescription": "The transaction needs to be confirmed on the network prior to the receive amount being sent. Please be patient.",
+  "exchangeSideshiftOrderInProgressDeliver": "Deliver",
+  "exchangeSideshiftOrderInProgressReceive": "Receive",
+  "exchangeSideshiftOrderInProgressAddress": "Address",
+  "exchangeSideshiftOrderConfirmTitle": "Order confirmed",
+  "exchangeSideshiftOrderConfirmDoneButton": "Done",
+  "exchangeSideshiftOrderConfirmSubmitButton": "Confirm Shift",
+  "exchangeSideshiftOrderConfirmCancelButton": "Cancel",
+  "exchangeSideshiftOrderReviewSend": "Sending",
+  "exchangeSideshiftOrderReviewTo": "To",
+  "exchangeSideshiftOrderReviewRate": "Rate",
+  "exchangeSideshiftOrderReviewReceive": "Receive",
+  "exchangeSideshiftOrderReviewChain": "Chain",
+  "exchangeSideshiftOrderReviewSubmitButton": "Swap",
+  "exchangeSideshiftOrderWaitSendTitle": "Send between",
+  "exchangeSideshiftOrderWaitCopyButton": "Copy",
+  "exchangeSideshiftOrderWaitShareButton": "Share",
+  "exchangeSideshiftOrderWaitShareAddress": "Address",
+  "exchangeSideshiftOrderWaitShareRate": "Rate",
+  "exchangeSideshiftOrderWaitShareStatus": "Status",
+  "exchangeSideshiftOrderWaitSendSubtitle": "{minAmount} - {maxAmount} {asset} to",
+  "@exchangeSideshiftOrderWaitSendSubtitle": {
+    "placeholders": {
+      "minAmount": {
+        "type": "String"
+      },
+      "maxAmount": {
+        "type": "String"
+      },
+      "asset": {
+        "type": "String"
+      }
+    }
+  },
+  "exchangeSideshiftOrderWaitShiftWarning": "You can exit this screen once you’ve sent to this address. You must send the asset before the time expires or you’ll need to contact Sideshift for a refund",
+  "exchangeSideshiftOrderFeeError": "No LBTC to pay network fee",
+  "exchangeBitcoinreserve": "Bitcoin Reserve",
+  "exchangeBitcoinreserveDescription": "Fast, simple and secure bitcoin buying",
+  "exchangeBitcoinreserveButton": "Buy",
+  "exchangeHodlHodl": "Hodl Hodl",
+  "exchangeHodlHodlDescription": "A multisig P2P Bitcoin trading platform",
+  "exchangeHodlHodlButton": "Trade",
+  "exchangeBuyBitcoin": "Buy Bitcoin",
+  "exchangeBuyBitcoinDebitCreditCard": "Debit or Credit Card",
+  "exchangeBuyBitcoinButton": "Buy",
+  "exchangeBuyLiquidBitcoin": "Buy Liquid Bitcoin",
+  "exchangeBuyLiquidBitcoinDebitCreditCard": "Debit or Credit Card",
+  "exchangeBuyLiquidBitcoinButton": "Buy",
+  "exchangeSwapTitle": "Swap",
+  "exchangeSwapForTitle": "For",
+  "exchangeSwap25Percent": "25%",
+  "exchangeSwap50Percent": "50%",
+  "exchangeSwapMax": "Max",
+  "exchangeSwapOrderConfirmTitle": "Order confirmed",
+  "exchangeSwapOrderConfirmButton": "Done",
+  "exchangeSwapSelectAssetTitle": "Select Asset",
+  "exchangeSwapSelectAssetSearchHint": "Search assets",
+  "exchangeSwapHistory": "Swap History",
+  "exchangeSwapHistoryEmpty": "Your swap transactions will show up here.",
+  "exchangeSwapBalance": "Balance: {balance} {ticker}",
+  "@exchangeSwapBalance": {
+    "placeholders": {
+      "balance": {
+        "type": "String"
+      },
+      "ticker": {
+        "type": "String"
+      }
+    }
+  },
+  "exchangeSwapWaitingTransaction": "Waiting for transaction data...",
+  "exchangeSwapConnecting": "Connecting...",
+  "exchangeSwapInsufficientFunds": "Insufficient funds",
+  "exchangeSwapNetworkError": "Network error",
+  "exchangeSwapGeneralError": "General error",
+  "exchangeSwapPromptTitle": "Swap Prompt",
+  "exchangeSwapPromptDeliver": "Deliver",
+  "exchangeSwapPromptReceive": "Receive",
+  "exchangeSwapPromptSlide": "Slide to swap",
+  "exchangeSideshiftAssetSheetTitle": "Select Asset",
+  "exchangeSideshiftAssetSheetInternalTitle": "This wallet",
+  "exchangeSideshiftAssetSheetExternalTitle": "External wallet",
+  "profileTitle": "Profile",
+  "profileSubtitle": "Liquid 101 -\nWhat is Liquid and how does it work?",
+  "profileItemSupport": "Support and Feedback",
+  "profileItemPhrase": "View my recovery phrase",
+  "profileItemSettings": "Settings",
+  "profileItemTerms": "Terms and Privacy",
+  "profileItemAbout": "About Us",
+  "profileSupportTitle": "Support and Feedback",
+  "profileSupportItemSupport": "Support & FAQs",
+  "profileSupportItemRate": "Rate the App",
+  "profileSupportItemUpdates": "Check for Updates",
+  "profileSupportVersions": "OS Version: {OSVersion}\nApp Version: {AppVersion}",
+  "@profileSupportVersions": {
+    "placeholders": {
+      "OSVersion": {
+        "type": "String"
+      },
+      "AppVersion": {
+        "type": "String"
+      }
+    }
+  },
+  "profileSettingsTitle": "Settings",
+  "profileSettingsItemFaceId": "Face ID",
+  "profileSettingsItemTouchId": "Fingerprint",
+  "profileSettingsItemPasscode": "Passcode",
+  "profileSettingsItemRate": "Reference Exchange Rate",
+  "profileSettingsRemoveButton": "Remove Wallet",
+  "profileSettingsRemoveAlertTitle": "⚠️ Warning!",
+  "profileSettingsRemoveAlertSubtitle": "Double-check that you have a backup before removing this wallet. Without a backup, you will have no way to restore the wallet. Removing the wallet will delete all associated keys and take you back to the app's start screen.",
+  "profileSettingsRemoveAlertCancelButton": "Cancel",
+  "profileSettingsRemoveAlertConfirmButton": "Remove wallet",
+  "profileAboutTitle": "About Us",
+  "profileAboutItemTwitter": "Twitter",
+  "profileAboutItemWebsite": "Website",
+  "welcomeLogoTitle": "Digital finance at\nits most Liquid.",
+  "welcomeBottomPanelTitle": "Your wallet will support Bitcoin, Liquid Bitcoin, and other Liquid assets.",
+  "welcomeImportTitle": "I have a wallet",
+  "welcomeImportDescription": "Import recovery phrase",
+  "welcomeCreateTitle": "I don't have a wallet",
+  "welcomeCreateDescription": "Create now",
+  "tosAgree": "I have read and agree to the ",
+  "tosAgreeSpan": "Term of Service.",
+  "tosTitle": "AQUA Terms of Service",
+  "tosLastUpdate": "Last Updated: Apr 12, 2020.",
+  "tosButtonText": "Create wallet",
+  "welcomeExchangeBuyBitcoinTitle": "Buy bitcoin",
+  "welcomeExchangeBuyBitcoinDescription": "Directly in the app.\n20+ countries supported.",
+  "welcomeWalletPromptTitle": "Please create a wallet first",
+  "welcomeWalletPromptSubtitle": "You'll need to set up a wallet in AQUA before you can buy Bitcoin and Liquid assets.",
+  "welcomeWalletPromptButtonRestore": "Restore",
+  "welcomeWalletPromptButtonCreate": "Create",
+  "welcomeProfileCreateButton": "Create a New Wallet",
+  "welcomeProfileRestorePrompt": "Already have an AQUA wallet?",
+  "welcomeProfileRestoreButton": "Restore",
+  "backupPromptTitle": "Backup your wallet",
+  "backupPromptSubtitle": "With AQUA, you are your own bank. No one else but you has access to your assets. Not even us.\n\nWith great power comes great responsibility. You'll need a backup of your wallet to ensure you can always your assets, even if you lose or break your device.",
+  "backupPromptButton": "Start",
+  "backupRecoveryPhraseTitle": "Write down your recovery phrase",
+  "backupRecoveryPhraseSubtitle": "The 12-word recovery phrase is your wallet's backup. Write it down using a pen and paper and store it somewhere safe. Do not make a digital copy such as a screenshot—these can be more easily hacked.\n\nFor extra security, purchase a metal backup device from the Blockstream Store.",
+  "backupRecoveryPhraseButton": "Confirm backup",
+  "backupRecoveryAlertTitle": "😖 Oops, screenshots are not safe",
+  "backupRecoveryAlertSubtitle": "Digital copies are easy to get hacked. Remove this screenshot from your device. You will thank yourself later.",
+  "backupRecoveryAlertButton": "OK",
+  "backupConfirmationTitle": "Confirm Backup",
+  "backupConfirmationSelect": "Select word #{position}",
+  "@backupConfirmationSelect": {
+    "placeholders": {
+      "position": {
+        "type": "String"
+      }
+    }
+  },
+  "backupConfirmationButton": "Complete",
+  "backupFailureTitle": "Oops. Make sure you have written down the words correctly.",
+  "backupFailureQuitButton": "Quit",
+  "backupFailureRetryButton": "Retry",
+  "backupSuccessTitle": "Congratulations! You've just made the first step to being your own bank.",
+  "backupSuccessSubtitle": "Remember, keep your recovery phrase somewhere very safe and never show it to anyone else!",
+  "backupSuccessButton": "Done",
+  "backupInviteTitle": "🤓 Safety First",
+  "backupInviteDescription1": "We highly recommend you back up your wallet by writing down your recovery phrase.",
+  "backupInviteDescription2": "Without your recovery phrase, there is no way to recover your assets if you lose or break your device.",
+  "backupInviteButtonNext": "Back up now",
+  "backupInviteButtonLater": "Later",
+  "backupInviteLoadingIndicator": "Creating your wallet...",
+  "backupInviteAlertTitle": "😖 Sorry, we couldn’t create your wallet",
+  "backupInviteAlertSubtitle": "Please try again later.",
+  "backupInviteAlertButton": "OK",
+  "restorePromptTitle": "Get your recovery phrase ready",
+  "restorePromptSubtitle": "You can restore your wallet using the 12-word recovery phrase you wrote down during the wallet backup process. Only recovery phrases generated in AQUA are supported.",
+  "restorePromptButton": "Start",
+  "restoreInputTitle": "Restore an AQUA wallet",
+  "restoreInputSubtitle": "Enter the recovery phrase",
+  "restoreInputButton": "Restore",
+  "restoreAlertTitle": "😖 Sorry, we couldn’t restore your wallet",
+  "restoreAlertSubtitle": "Make sure you have the correct words and that they are in the right order.",
+  "restoreAlertButton": "OK",
+  "restoreLoadingIndicator": "Restoring your wallet...",
+  "biometricPromptTitleTouchId": "Enable Fingerprint",
+  "biometricPromptTitleFaceId": "Enable Face ID",
+  "biometricPromptSubtitleTouchId": "Secure your AQUA wallet with a simple thumb press.",
+  "biometricPromptSubtitleFaceId": "Secure your AQUA wallet with a Face Id.",
+  "biometricPromptDescriptionTouchId": "How secure is Fingerprint?",
+  "biometricPromptDescriptionFaceId": "How secure is Face ID?",
+  "biometricPromptEnableButton": "Enable",
+  "biometricPromptSkipButton": "Skip",
+  "biometricPromptAndroidSecureInfoTitle": "Understand fingerprint security",
+  "biometricPromptAndroidSecureInfoDescription": "Your fingerprint data is stored securely and never leaves your phone. Your fingerprint data isn't shared with Google or any apps on your device. Apps are notified only whether your fingerprint was verified.\n\nFingerprints are an easy way to unlock your phone. But a fingerprint may be less secure than a strong PIN, pattern, or password.\n\nA copy of your fingerprint could be used to unlock your phone. You leave fingerprints on many things you touch, including your phone.",
+  "biometricPromptSecureInfoButton": "OK",
+  "biometricPromptIosSecureInfoTitle": "Understand fingerprint security",
+  "biometricPromptIosSecureInfoDescription": "Your fingerprint data is encrypted, stored on device, and protected with a key available only to the Secure Enclave. Your fingerprint data is used only by the Secure Enclave to verify that your fingerprint matches the enrolled fingerprint data. It can’t be accessed by the OS on your device or by any applications running on it. It's never stored on Apple servers, it's never backed up to iCloud or anywhere else, and it can't be used to match against other fingerprint databases.",
+  "passcodeEnableTitle": "Enable Passcode",
+  "passcodeEnableSubtitle": "A quick and easy way to secure your AQUA wallet.",
+  "passcodeEnableButton": "Enable",
+  "passcodeSkipButton": "Skip",
+  "passcodeCreateTitle": "Create a passcode",
+  "passcodeCreateButton": "Continue",
+  "passcodeErrorAlertTitle": "Passcode must be 6 digits",
+  "passcodeErrorAlertSubtitle": "Please make sure that entered passcode is not shorter than 6 digits",
+  "passcodeErrorAlertButton": "OK",
+  "passcodeMatchErrorAlertTitle": "Passcodes don't match",
+  "passcodeMatchErrorAlertSubtitle": "Please make sure that entered passcodes match",
+  "passcodeMatchErrorAlertButton": "OK",
+  "passcodeConfirmTitle": "Confirm passcode",
+  "passcodeConfirmButton": "Confirm",
+  "passcodeUnlockTitle": "Unlock your wallet",
+  "passcodeUnlockButton": "Unlock",
+  "passcodeUnlockLoadingDescription": "Unclocking your wallet...",
+  "unknownErrorTitle": "Error",
+  "unknownErrorSubtitle": "Unknown error occurred.\nPlease try again later.",
+  "unknownErrorButton": "Retry",
+  "linkErrorAlertTitle": "😖 Sorry, we couldn’t open the link",
+  "linkErrorAlertSubtitle": "Unknown error occurred. Please try again later.",
+  "linkErrorAlertButton": "OK",
+  "sendPromptTitle": "Send",
+  "sendPromptTo": "To",
+  "sendPromptHint": "Input address or scan QR",
+  "sendPromptClipboardTitle": "Paste from clipboard",
+  "sendPromptAssetsTitle": "Choose asset",
+  "sendPromptAssetsHint": "Search assets",
+  "sendAmountErrorButton": "Go Back",
+  "sendReviewTitle": "Send",
+  "sendReviewTo": "To",
+  "sendReviewFeeButton": "Network fee",
+  "sendReviewMyNotes": "My Notes",
+  "sendReviewCustomFeeLabel": "Custom fee amount",
+  "sendReviewNotesHint": "Only visible to you",
+  "sendReviewSendButton": "Slide to send",
+  "sendReviewTabRegularSubtitle": "Recommended",
+  "sendReviewTabRegularTitle": "$ 0.01",
+  "sendReviewTabUrgentSubtitle": "It’s urgent",
+  "sendReviewTabUrgentTitle": "$ 0.5",
+  "sendReviewTabCustomTitle": "Custom",
+  "sendReviewInvalidAmount": "Invalid amount",
+  "sendReviewFeeNotAvailable": "N/A",
+  "sendReviewCustomFeeHint": "$ 0",
+  "sendReviewCustomFeeError": "Enter a network fee",
+  "sendReviewSending": "Sending...",
+  "sendReviewInsufficientFundsAlertTitle": "😳",
+  "sendReviewInsufficientFundsAlertSubtitle": "Oops! You don’t have enough {ticker} to send.",
+  "@sendReviewInsufficientFundsAlertSubtitle": {
+    "placeholders": {
+      "ticker": {
+        "type": "String"
+      }
+    }
+  },
+  "sendReviewInsufficientFundsAlertCancelButton": "Cancel",
+  "sendReviewInsufficientFundsAlertGetButton": "Get {ticker}",
+  "@sendReviewInsufficientFundsAlertGetButton": {
+    "placeholders": {
+      "ticker": {
+        "type": "String"
+      }
+    }
+  },
+  "sendSummaryTitle": "Payment Sent!",
+  "sendSummaryAmount": "Amount",
+  "sendSummaryNetworkFee": "Network Fee",
+  "sendSummaryMyNotes": "My Notes",
+  "sendSummaryFrom": "Sent From",
+  "sendSummaryTransactionId": "Transaction ID",
+  "sendSummaryButton": "Done",
+  "receiveChooseAssetTitle": "Select Asset",
+  "receiveChooseAssetEmptyHeader": "No results",
+  "receiveChooseAssetAddAnyAssetLabel": "Receive any Liquid Asset",
+  "receiveQrCodeTitle": "Receive",
+  "receiveQrCodeGenericAssetLabel": "Scan this to receive liquid asset",
+  "receiveQrCodeMyNotesButton": "My Notes",
+  "receiveQrCodeCopyButton": "Copy",
+  "receiveQrCodeSetAmountButton": "Set Amount",
+  "receiveQrCodeShareButton": "Share",
+  "receiveQrCodeCopied": "Address copied!",
+  "receiveAmountDoneButton": "Done",
+  "receiveHistoryTitle": "Address History",
+  "receiveHistoryUsedEmpty": "Your used addresses will show\n up here.",
+  "receiveHistoryAllAddressesEmpty": "All your previous addresses will\n show up here.",
+  "addNotePrompt": "Add a note to yourself",
+  "addNoteSaveButton": "Save",
+  "setAmountHint": "Amount",
+  "setAmountMaxButton": "Send Max",
+  "setAmountContinueButton": "Continue",
+  "scanQrCodeTitle": "Scan QR code",
+  "scanQrCodeButton": "My QR",
+  "scanQrCodeAlbumButton": "Album",
+  "scanQrCodeBalanceButton": "Check Balance",
+  "scanQrCodeValidationAlertTitle": "Invalid QR Code",
+  "scanQrCodeValidationAlertSubtitle": "Make sure you’re sending to the right chain and asset.",
+  "scanQrCodeValidationAlertQuitButton": "Quit",
+  "scanQrCodeValidationAlertRetryButton": "Try again",
+  "scanQrCodePermissionAlertTitle": "Camera Permission",
+  "scanQrCodePermissionAlertSubtitle": "QR code scanner requires camera permission to be granted.",
+  "scanQrCodePermissionAlertCancelButton": "Cancel",
+  "scanQrCodePermissionAlertGrantButton": "Grant",
+  "pokerChipBalanceLabel": "Chip Balance",
+  "pokerChipBalanceError": "Cannot read Pokerchip",
+  "pokerChipBalanceScan": "Scan a Pokerchip",
+  "pokerChipBalanceButton": "Got it",
+  "pokerChipBalanceExplorerButton": "View in Explorer",
+  "tabAssets": "Assets",
+  "tabNfts": "NFTs",
+  "nftsAssets": "{number} assets",
+  "@nftsAssets": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "nftsSeeGroup": "See group",
+  "gdkNetworkInvalidAddress": "Invalid address",
+  "gdkNetworkInvalidAmount": "Invalid amount",
+  "gdkNetworkInsufficientFunds": "Insufficient funds",
+  "receiveAddressChipsUsed": "Used",
+  "receiveAddressChipsAll": "All addresses",
+  "copiedToClipboard": "Copied to clipboard",
+  "rememberBackupTitle": "Remember to backup",
+  "rememberBackupDescription": "You can view your recovery phrase at any time here in your profile.",
+  "rememberBackupButton": "Dismiss",
+  "liquidTaxiPaymentSheetTitle": "You don’t have enough\nL-BTC",
+  "liquidTaxiPaymentSheetRequiredFee": "Required for fee: {amount} L-BTC",
+  "@liquidTaxiPaymentSheetRequiredFee": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "liquidTaxiPaymentSheetLbtcBalance": "Current balance: {amount} L-BTC",
+  "@liquidTaxiPaymentSheetLbtcBalance": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "liquidTaxiPaymentSheetButtonLabel": "Pay with USDt (${amount})",
+  "@liquidTaxiPaymentSheetButtonLabel": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "liquidTaxiPaymentSheetUsdtBalance": "Current balance: {amount} USDt",
+  "@liquidTaxiPaymentSheetUsdtBalance": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  }
+}
